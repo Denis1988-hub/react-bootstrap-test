@@ -1,10 +1,8 @@
 import React from 'react';
-import {Card, Container, Row } from 'react-bootstrap';
+import {Card, Container, Row, Nav} from 'react-bootstrap';
 import './app-portfolio.css';
 import Tab from "react-bootstrap/Tab";
 import {portfolio} from '../../img/img'
-
-
 
 
 const AppPortfolio = () => {
@@ -12,9 +10,14 @@ const AppPortfolio = () => {
   const renderContent = () => {
     return portfolio.map((item, index) => {
       return (
-          <Card className={'card-photo mt-5'} key={index + 'AAA'}>
-            <Card.Img variant="top" src={item.image} />
-          </Card>
+          <>
+          <Nav.Link className="render-link" href={item.link} target="_blank">
+            <Card className={'card-photo mt-5'} key={index + 'AAA'}>
+              <Card.Img variant="top" src={item.image}/>
+            </Card>
+          </Nav.Link>
+            </>
+
       )
     });
   };
