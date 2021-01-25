@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# react-bootstrap-test
+Экзаменационное задание
+ 
+При клике на пункт меню, выполняется переход на ту часть страницы, где находится блок с данной информацией. Т.е. при клике на Services происходит переход к блоку My Services и т.д. Страницу можно делать как на английском, так и на русском языке. 
+При клике на социальные иконки в новом окне открывается социальная сеть, связанная с этой иконкой. Если у вас нету профайла в данной сети, просто ставите ссылку на главную страницу этой сети.
+ 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Фотографию мастера Зеленкина поменять на свою. Даю подсказку в папке src делаете папку img куда складываете все ваши фото. Затем в компоненте, в котором вам надо использовать фото просто импортируете его import название фото from './img/photo.jpg'. Например, у вас фото дерева, которое называется tree, соответственно import tree from ‘./img/tree.jpg’ и в тэг img вставляете вот таким образом <img src = { tree } />. Если возникнут вопросы с импортом фото, объясню еще раз на парах.
+Кнопке About me меняете цвет, в том стиле, который вы выбрали для своей страницы. И да, стиль у каждого должен быть свой. При клике на кнопку нас перенаправляет или на блок About me, который вы должны добавить самостоятельно. Либо же открывается модальное окно About me. Здесь вариант на ваш выбор. Не забываем про стилизацию джамботрона под общий выбранный вами стиль.
+ 
 
-## Available Scripts
+В каруселе, она же слайдер поменяете фото на какие-нибудь свои. Должны быть три фото, с описанием, просто поменяете то описание, которое есть сейчас. Добавьте в секцию с каруселью заголовок My last works или Мои последние работы, если делаете страницу на русском.
+ 
 
-In the project directory, you can run:
+Блок My Services выбираете три услуги которые предоставляете, например, дизайн, верстки написание кода и т.д. Меняете заголовок на название услуги, затем даете описание услуги и самые продвинутые могут вставить еще и иконку для услуги. 
+ 
 
-### `npm start`
+Пример таких иконок 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+В портфолио добавляете свои фото, каким образом добавить фото в проект я объяснял выше. И делаете вокруг фото рамки, делаете рамки средствами react-bootstrapю Продвинутые могут добавить сторонние библиотеки, чтобы при клике на фото оно увеличивалось.
 
-### `npm test`
+ 
+На форму вешаете обработчик событий, чтобы при отправке сообщения и почты, те данные что ввел пользователь отображались в консоле. Наш любимый console.log(). Не забываем про стилизацию кнопки и самой формы. 
+ 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+В футере дублируете меню из навбара, но располагаете его в столбик, так же добавляете свой номер телефона, емэил и копирайт.
 
-### `npm run build`
+ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Задание не сложное. Время для выполнения с 17.01.20121 по 08.02.2021. Времени более чем достаточно, будут вопросы пишите.  
