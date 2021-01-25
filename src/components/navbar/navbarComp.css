@@ -1,0 +1,24 @@
+
+.js {
+    justify-content: flex-start;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.social-icon {
+    max-width: 100%;
+    margin-right: auto;
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.js a{
+    color: #cccccc;
+}
+
+.js a:hover{
+    color: #fff;
+}

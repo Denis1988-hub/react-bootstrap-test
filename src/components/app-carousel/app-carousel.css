@@ -1,0 +1,18 @@
+.app-carousel {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.app-carousel .text {
+  background: darkcyan;
+  color: white;
+  font-size: 24px;
+  border-radius: 12px;
+  box-shadow: -1px 2px 12px rgba(0,0,0, 0.3);
+}
+
+.app-carousel img {
+  max-width: 1140px;
+  max-height: 600px;
+}
