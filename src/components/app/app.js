@@ -17,10 +17,12 @@ class App extends Component {
   };
 
   showAbout = () => {
+    setTimeout(() => {
       this.setState({
         isOpen: !this.state.isOpen
       })
-  }
+    }, 30);
+  };
 
   render() {
 
