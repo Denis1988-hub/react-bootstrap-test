@@ -17,8 +17,11 @@ const AppFooter = () => {
               Офис в Кишиневе:
             </h6>
             <p>
-              2546 Decebal 139, оф. 306
+              2546 Decebal 139, оф. 306<br />
+              Тел: 37389765345<br />
+              email: info@delaemsaity.com
             </p>
+            <p>&copy; 2021 localhost:3000</p>
           </div>
           <GoogleMap />
 
